@@ -44,6 +44,7 @@ export async function POST(req: Request) {
     });
   }
 
+  // User upgrades or invoice for renewal succeeds
   if (event.type === "invoice.payment_succeeded") {
     const subscription = await stripe.subscriptions.retrieve(
       session.subscription as string
