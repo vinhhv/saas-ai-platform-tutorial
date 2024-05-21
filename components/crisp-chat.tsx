@@ -7,4 +7,6 @@ export const CrispChat = () => {
   useEffect(() => {
     Crisp.configure("8bccfa40-6cc1-4fd9-ab63-c8637250283b");
   }, []);
+
+  return null;
 };
