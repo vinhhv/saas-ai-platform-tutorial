@@ -104,7 +104,7 @@ const Sidebar = ({ apiLimitCount, isPro = false }: SidebarProps) => {
           ))}
         </div>
       </div>
-      <FreeCounter apiLimitCount={apiLimitCount} isPro />
+      <FreeCounter apiLimitCount={apiLimitCount} isPro={isPro} />
     </div>
   );
 };
